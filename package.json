@@ -1,0 +1,19 @@
+{
+  "name": "flatdoc-template",
+  "version": "1.0.0",
+  "description": "Template for generating documentation using Flatdoc and Mermaid using multiple markdown files",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "beefy --cwd docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Oehlman",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-gh-pages": "^0.4.0"
+  }
+}

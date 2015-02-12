@@ -1,0 +1,24 @@
+.cluster {
+  opacity: 1;
+  fill: #fafafa;
+  outline: 1px solid #eee;
+}
+
+.mermaid {
+  /*float: right;*/
+}
+
+@media (min-width: 1180px) {
+  body:not(.no-literate) .content > pre + p, body:not(.no-literate) .content > blockquote + p, body:not(.no-literate) .content > pre + ul, body:not(.no-literate) .content > blockquote + ul, body:not(.no-literate) .content > pre + ol, body:not(.no-literate) .content > blockquote + ol, body:not(.no-literate) .content > pre + h4, body:not(.no-literate) .content > blockquote + h4, body:not(.no-literate) .content > pre + h5, body:not(.no-literate) .content > blockquote + h5, body:not(.no-literate) .content > pre + h6, body:not(.no-literate) .content > blockquote + h6 {
+      clear: left;
+    }
+}
+
+.content h3 {
+  font-size: 1.5em;
+}
+.content h4 {
+  font-size: 1.3em;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
